@@ -1,13 +1,17 @@
 class Person {
-  String firstName='';//non-nullable
-  
+  String firstName;//non-nullable
+  //define constructor
+  Person(this.firstName);//{
+ //   firstName = firstName;
+  //}
+
   printName(){
-    print(firstName);
+    print(this.firstName);
   }
 }
 
 void main(){
-  var person = new Person();
-  person.firstName='mahin nur';
+  var person = new Person('Mahin Nur');
+  //person.firstName='mahin nur';
   person.printName();
 }
