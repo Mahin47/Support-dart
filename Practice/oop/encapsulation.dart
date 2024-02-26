@@ -1,18 +1,9 @@
+import 'person.dart';
+
 void main(){
   Person randomPerson = Person('mahin', 'islam', 'male', 30);
-  print(randomPerson.firstName);
+  //print(randomPerson.);
   print(randomPerson.getFullName());
-}
-
-class Person {
-  String firstName;
-  String lastName;
-  String gender;
-  int age;
-
-  Person(this.firstName,this.lastName,this.gender,this.age);
-
-  String getFullName(){
-    return firstName +' '+ lastName; //String Concat
-  }
+  print(randomPerson.getGender());
+  print(randomPerson.ageYearFinder());
 }
