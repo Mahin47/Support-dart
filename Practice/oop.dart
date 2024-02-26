@@ -12,17 +12,14 @@ void main(){
 
   studentList.add(studentOne);
   studentOne.printSomething();
+  studentOne.playing();
   print(studentOne);
-
 
   Teacher teacherTWo = Teacher(name: 'Islam', age: 50, department: 'CSE');
 
   teacherList.add(teacherTWo);
   teacherTWo.printTeacher();
   print(teacherTWo);
-
-
-
 }
 
 
@@ -41,6 +38,9 @@ class Student{
   //function
 void printSomething(){
     print('$name age is $age and $address and $university' );
+}
+void playing(){
+    print('$name is playing cricket');
 }
 }
 
