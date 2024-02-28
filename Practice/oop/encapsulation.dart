@@ -5,7 +5,7 @@ void main(){
   //print(randomPerson.);
   randomPerson.setNationality('bangladeshi');
   print(randomPerson.getNationality());
-  print(randomPerson.getFullName());
-  print(randomPerson.getGender());
-  print(randomPerson.ageYearFinder());
+  //print(randomPerson.getFullName());
+  //print(randomPerson.getGender());
+  //print(randomPerson.ageYearFinder());
 }

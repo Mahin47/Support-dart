@@ -7,7 +7,7 @@ class Person {
 
   //constructor
   Person(this._firstName,this._lastName,this._gender,this._age,this._nationality){
-    print(_ageYearFinder());
+    //print(_ageYearFinder());
   }
 
   String getFullName(){
@@ -36,7 +36,7 @@ int ageYearFinder(){
 void setNationality(String nationality){
     if(nationality=='Bangladeshi' || nationality=='bangladeshi'){
       _nationality= nationality;
-    }else print('Nationality not matched');
+    }else return null;
 }
 String getNationality(){
     return _nationality;
