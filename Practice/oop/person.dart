@@ -10,18 +10,18 @@ class Person {
     //print(_ageYearFinder());
   }
 
-  String getFullName(){
+  String get getFullName{
     return _firstName +' '+ _lastName; //String Concat
   }
 // setter method
-  void changeGender(String gender){
+  void set changeGender(String gender){
     if(gender=='male' || gender=='female'){
       _gender=gender;
     }
   }
 
   //getter method
-String getGender(){
+String get getGender{
     return _gender;
 }
 
@@ -29,16 +29,16 @@ String getGender(){
 int _ageYearFinder(){
     return 2024 - _age;
 }
-int ageYearFinder(){
+int get ageYearFinder{
     return _ageYearFinder();
 }
 
-void setNationality(String nationality){
+void set setNationality(String nationality){
     if(nationality=='Bangladeshi' || nationality=='bangladeshi'){
       _nationality= nationality;
     }else return null;
 }
-String getNationality(){
+String get getNationality{
     return _nationality;
 }
 

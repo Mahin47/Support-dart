@@ -34,7 +34,7 @@ class AcRemote {
 
   void _ResponseTemp(){
     if(_temp < 20 && _temp >= 16){
-      
+
     }
   }
 
