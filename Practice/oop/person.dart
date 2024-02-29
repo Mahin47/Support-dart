@@ -19,7 +19,6 @@ class Person {
       _gender=gender;
     }
   }
-
   //getter method
 String get getGender{
     return _gender;
