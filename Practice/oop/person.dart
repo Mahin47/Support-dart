@@ -24,7 +24,6 @@ String get getGender{
     return _gender;
 }
 
-
 int _ageYearFinder(){
     return 2024 - _age;
 }
@@ -40,6 +39,5 @@ void set setNationality(String nationality){
 String get getNationality{
     return _nationality;
 }
-
 
 }
