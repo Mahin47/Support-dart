@@ -1,5 +1,6 @@
 void main(){
   printer();
+  printHandler();
 }
 
 void printer(){
@@ -32,10 +33,6 @@ void printContent(){
   throw MachineException();
   //print('Print Main Content!!!');
 }
-
-/* class MyException extends Exception {
-
-} */
 
 class CustomException implements Exception {
   String toString(){
